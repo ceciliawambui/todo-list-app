@@ -106,4 +106,9 @@ body {
     background-color: #dcdcdc;
   
   }
-  
+  .edit-btn {
+    float: right;
+    cursor: pointer;
+    color: #007bff;
+    margin-right: 10px;
+}

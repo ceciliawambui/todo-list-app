@@ -11,6 +11,7 @@ addTaskBtn.addEventListener("click", function () {
     if (taskText.trim() !== "") {
 
         const taskItem = document.createElement("li");
+        li.innerHTML = `${taskText} <span class="edit-btn">✎</span><span class="delete-btn">✖</span>`;
 
         taskItem.innerText = taskText;
 
